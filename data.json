@@ -1,0 +1,430 @@
+{
+  "screensText": [
+    {
+      "id": 1,
+      "type": "introScreen",
+      "content": {
+        "en": {
+          "title": "Game and facts about Jyväskylä",
+          "buttonText": "Start"
+        },
+        "ru": {
+          "title": "Игра и факты про Ювяскюля",
+          "buttonText": "Начать"
+        },
+        "fi": {
+          "title": "Peli ja tiedot Jyväskylästä",
+          "buttonText": "Aloita"
+        },
+        "uk": {
+          "title": "Гра та факти про Ювяскюля",
+          "buttonText": "Почати"
+        }
+      }
+    }
+  ],
+  "descriptions": [
+    {
+      "id": 1,
+      "type": "description",
+      "content": {
+        "en": {
+          "title": "About the game",
+          "content": "In the game you will learn interesting facts and places of the city of Jyväskylä, then you can test your knowledge with a simple test!"
+        },
+        "ru": {
+          "title": "Об игре",
+          "content": "В игре предстоит познакомиться с интересными фактами и местами города Ювяскюля, затем можно проверить свои знания при помощи несложного теста!"
+        },
+        "fi": {
+          "title": "Tietoja pelistä",
+          "content": "Pelissä opit tutustumaan Jyväskylän kaupungin mielenkiintoisiin faktoihin ja paikkoihin, jonka jälkeen voit testata tietosi yksinkertaisella testillä!"
+        },
+        "uk": {
+          "title": "Про гру",
+          "content": "У грі належить познайомитися з цікавими фактами та місцями міста Ювяскюля, потім можна перевірити свої знання за допомогою нескладного тесту!"
+        }
+      }
+    }
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "type": "fact",
+      "imgURL": "https://i.imgur.com/s6kno1G.jpeg",
+      "content": {
+        "en": {
+          "title": "Fact 1",
+          "text": "Jyväskylä was founded in 1837 by the decree of Nicholas I and is one of the youngest cities in Finland. The city developed rapidly, with beautiful wooden buildings and cozy streets emerging in the area, attracting many people."
+        },
+        "ru": {
+          "title": "Факт 1",
+          "text": "Ювяскюля была основана в 1837 году по указу Николая I и является одним из самых молодых городов финляндии. Город быстро развивался, и на его территории появились красивые деревянные здания и уютные улочки, которые привлекали многих людей."
+        },
+        "fi": {
+          "title": "Fakta 1",
+          "text": "Jyväskylä perustettiin vuonna 1837 keisari Nikolai I:n määräyksestä ja on yksi Suomen nuorimmista kaupungeista. Kaupunki kehittyi nopeasti, ja sen alueelle rakennettiin kauniita puutaloja ja viihtyisiä katuja, jotka vetivät puoleensa monia ihmisiä."
+        },
+        "uk": {
+          "title": "Факт 1",
+          "text": "Ювяскюля була заснована у 1837 році за указом Миколи I і є одним із наймолодших міст Фінляндії. Місто швидко розвивалося, і на його території з’явилися красиві дерев’яні будівлі та затишні вулички, які приваблювали багатьох людей."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "fact",
+      "imgURL": "https://i.imgur.com/ZHhnqpU.jpeg",
+      "content": {
+        "en": {
+          "title": "Fact 2",
+          "text": "Jyväskylä is considered the capital of Finnish pedagogy, as the first teacher training institute in Finland was opened here in 1863, which was an important step in the development of the country's educational system."
+        },
+        "ru": {
+          "title": "Факт 2",
+          "text": "Ювяскюля считается столицей финской педагогики, так как тут был открыт первый в Финляндии учительский институт в 1863 году, что стало важным шагом для развития образовательной системы страны."
+        },
+        "fi": {
+          "title": "Fakta 2",
+          "text": "Jyväskylää pidetään suomalaisen pedagogiikan pääkaupunkina, sillä tänne avattiin Suomen ensimmäinen opettajankoulutuslaitos vuonna 1863, mikä oli tärkeä askel maan koulutusjärjestelmän kehityksessä."
+        },
+        "uk": {
+          "title": "Факт 2",
+          "text": "Ювяскюля вважається столицею фінської педагогіки, оскільки тут було відкрито перший у Фінляндії вчительський інститут 1863 року, що стало важливим кроком у розвиток освітньої системи країни."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "fact",
+      "imgURL": "https://i.imgur.com/MuZiMFT.jpeg",
+      "content": {
+        "en": {
+          "title": "Fact 3",
+          "text": "Jyväskylä is renowned for its unique architectural heritage, including numerous buildings designed by the famous Finnish architect Alvar Aalto, there is also a museum in his honor in the city."
+        },
+        "ru": {
+          "title": "Факт 3",
+          "text": "Ювяскюля известна своим уникальным архитектурным наследием, в том числе большим количеством зданий, спроектированных знаменитым финским архитектором Алваром Аалто, в городе также есть музей в честь него."
+        },
+        "fi": {
+          "title": "Fakta 3",
+          "text": "Jyväskylä tunnetaan ainutlaatuisesta arkkitehtonisesta perinnöstään, mukaan lukien useista kuuluisan suomalaisen arkkitehdin Alvar Aallon suunnittelemista rakennuksista, kaupungissa on myös museo hänen kunniakseen."
+        },
+        "uk": {
+          "title": "Факт 3",
+          "text": "Ювяскюля відома своєю унікальною архітектурною спадщиною, зокрема численними будівлями, спроєктованими відомим фінським архітектором Алвар Аалто, у місті також є музей на честь нього."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "fact",
+      "imgURL": "https://i.imgur.com/7K4qLyR.jpeg",
+      "content": {
+        "en": {
+          "title": "Fact 4",
+          "text": "Jyväskylä is one of the largest centers for winter sports, hosting international ski jumping and cross-country skiing competitions."
+        },
+        "ru": {
+          "title": "Факт 4",
+          "text": "Ювяскюля является одним из крупнейших центров зимних видов спорта, где проводятся международные соревнования по прыжкам с трамплина и лыжным гонкам."
+        },
+        "fi": {
+          "title": "Fakta 4",
+          "text": "Jyväskylä on yksi suurimmista talviurheilukeskuksista, jossa järjestetään kansainvälisiä mäkihypyn ja maastohiihdon kilpailuja."
+        },
+        "uk": {
+          "title": "Факт 4",
+          "text": "Ювяскюля є одним із найбільших центрів зимових видів спорту, де проводяться міжнародні змагання зі стрибків із трампліна та лижних перегонів."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "fact",
+      "content": {
+        "en": {
+          "title": "Fact 5",
+          "text": "Jyväskylä is home to the University of Central Finland, attracting students from across the country and abroad with its diverse range of programs."
+        },
+        "ru": {
+          "title": "Факт 5",
+          "text": "В Ювяскюле находится Университет Центральной Финляндии, который привлекает студентов со всей страны и из-за рубежа благодаря широкому выбору программ."
+        },
+        "fi": {
+          "title": "Fakta 5",
+          "text": "Jyväskylässä sijaitsee Keski-Suomen yliopisto, joka houkuttelee opiskelijoita kaikkialta Suomesta ja ulkomailta monipuolisen ohjelmatarjontansa ansiosta."
+        },
+        "uk": {
+          "title": "Факт 5",
+          "text": "У Ювяскюлі розташований Університет Центральної Фінляндії, який приваблює студентів з усієї країни та з-за кордону завдяки широкому вибору програм."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "fact",
+      "content": {
+        "en": {
+          "title": "Fact 6",
+          "text": "Jyväskylä is located on the shores of Lake Päijänne, Finland's second-largest lake, making it a popular destination for nature enthusiasts."
+        },
+        "ru": {
+          "title": "Факт 6",
+          "text": "Ювяскюля расположена на берегу озера Пяйянне, второго по величине озера в Финляндии, что делает город популярным местом для отдыха на природе."
+        },
+        "fi": {
+          "title": "Fakta 6",
+          "text": "Jyväskylä sijaitsee Päijänteen rannalla, joka on Suomen toiseksi suurin järvi, mikä tekee kaupungista suositun luontokohteen."
+        },
+        "uk": {
+          "title": "Факт 6",
+          "text": "Ювяскюля розташована на березі озера Пяйянне, другого за розміром озера у Фінляндії, що робить місто популярним місцем для відпочинку на природі."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "type": "fact",
+      "content": {
+        "en": {
+          "title": "Fact 7",
+          "text": "The city hosts the annual Jyväskylän Kesä cultural festival, which is the oldest summer festival in Finland."
+        },
+        "ru": {
+          "title": "Факт 7",
+          "text": "В городе ежегодно проводится культурный фестиваль Jyväskylän Kesä, который является старейшим летним фестивалем в Финляндии."
+        },
+        "fi": {
+          "title": "Fakta 7",
+          "text": "Kaupungissa järjestetään vuosittain Jyväskylän Kesä -kulttuurifestivaali, joka on Suomen vanhin kesäfestivaali."
+        },
+        "uk": {
+          "title": "Факт 7",
+          "text": "У місті щорічно проводиться культурний фестиваль Jyväskylän Kesä, який є найстарішим літнім фестивалем у Фінляндії."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "type": "fact",
+      "imgURL":"https://i.imgur.com/DdZVUnr.jpeg",
+      "content": {
+        "en": {
+          "title": "Fact 8",
+          "text": "Jyväskylä has two UNESCO sites: the 17th-century Petäjävesi wooden church and Säynätsalo Town Hall tied to Alvar Aalto’s work."
+        },
+        "ru": {
+          "title": "Факт 8",
+          "text": "В Ювяскюле два объекта ЮНЕСКО: деревянная церковь Петяйявеси XVII века и Школа Вихельмяки, связанная с работами Алвара Аалто."
+        },
+        "fi": {
+          "title": "Fakta 8",
+          "text": "Jyväskylässä on kaksi UNESCO-kohdetta: Petäjäveden puukirkko 1600-luvulta ja Säynätsalon kunnantalo, joka liittyy Alvar Aallon töihin."
+        },
+        "uk": {
+          "title": "Факт 8",
+          "text": "У Ювяскюлі два об’єкти ЮНЕСКО: дерев’яна церква Петяйявесі XVII століття та школа Віхельмякі, пов’язана з роботами Алвара Аалто."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "type": "fact",
+      "imgURL": "https://i.imgur.com/TUV5tsr.jpeg",
+      "content": {
+        "en": {
+          "title": "Fact 9",
+          "text": "The city is located in the Central Finland region, often called the 'Heart of Finland' due to its central location and natural beauty."
+        },
+        "ru": {
+          "title": "Факт 9",
+          "text": "Город находится в регионе Центральная Финляндия, который называют 'сердцем Финляндии' благодаря его центральному расположению и природной красоте."
+        },
+        "fi": {
+          "title": "Fakta 9",
+          "text": "Kaupunki sijaitsee Keski-Suomen alueella, jota kutsutaan 'Suomen sydämeksi' sen keskeisen sijainnin ja luonnonkauneuden vuoksi."
+        },
+        "uk": {
+          "title": "Факт 9",
+          "text": "Місто розташоване в регіоні Центральна Фінляндія, який називають 'серцем Фінляндії' через його центральне розташування та природну красу."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "fact",
+      "content": {
+        "en": {
+          "title": "Fact 10",
+          "text": "Jyväskylä is home to Finland’s largest lake archipelago, featuring hundreds of islands, perfect for fishing and kayaking."
+        },
+        "ru": {
+          "title": "Факт 10",
+          "text": "В Ювяскюле находится крупнейший в Финляндии озерный архипелаг, который включает сотни островов и идеально подходит для рыбалки и каякинга."
+        },
+        "fi": {
+          "title": "Fakta 10",
+          "text": "Jyväskylässä sijaitsee Suomen suurin järvisaaristo, johon kuuluu satoja saaria, ja se on täydellinen paikka kalastukseen ja melontaan."
+        },
+        "uk": {
+          "title": "Факт 10",
+          "text": "У Ювяскюлі знаходиться найбільший у Фінляндії озерний архіпелаг, який включає сотні островів і є ідеальним місцем для риболовлі та каякінгу."
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "true_false",
+      "content": {
+        "en": {
+          "question": "True or false: Jyväskylä is one of the youngest cities in Finland?",
+          "answer": "True",
+          "options": ["True", "False"],
+          "title": "Choose the right answer"
+        },
+        "ru": {
+          "question": "Правда или ложь: Ювяскюля — это один из самых молодых городов Финляндии?",
+          "answer": "Правда",
+          "options": ["Правда", "Ложь"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi": {
+          "question": "Totta vai tarua: Jyväskylä on yksi Suomen nuorimmista kaupungeista?",
+          "answer": "Totta",
+          "options": ["Totta", "Tarua"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk": {
+          "question": "Правда чи неправда: Ювяскюля — одне з наймолодших міст Фінляндії?",
+          "answer": "Правда",
+          "options": ["Правда", "Неправда"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "content": {
+        "en": {
+          "question": "True or false: Jyväskylä hosts a stage of the Cross-Country Skiing World Cup?",
+          "answer": "False",
+          "options": ["True", "False"],
+          "title": "Choose the right answer"
+        },
+        "ru": {
+          "question": "Правда или ложь: Ювяскюля принимает этап Кубка мира по лыжным гонкам?",
+          "answer": "Ложь",
+          "options": ["Правда", "Ложь"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi": {
+          "question": "Totta vai tarua: Jyväskylässä järjestetään maastohiihdon maailmancupin osakilpailu?",
+          "answer": "Tarua",
+          "options": ["Totta", "Tarua"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk": {
+          "question": "Правда чи неправда: Ювяскюля приймає етап Кубка світу з лижних гонок?",
+          "answer": "Неправда",
+          "options": ["Правда", "Неправда"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "true_false",
+      "content": {
+        "en": {
+          "question": "True or false: Jyväskylä is home to the largest university in Finland?",
+          "answer": "False",
+          "options": ["True", "False"],
+          "title": "Choose the right answer"
+        },
+        "ru": {
+          "question": "Правда или ложь: В Ювяскюле находится крупнейший в Финляндии университет?",
+          "answer": "Ложь",
+          "options": ["Правда", "Ложь"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi": {
+          "question": "Totta vai tarua: Jyväskylässä sijaitsee Suomen suurin yliopisto?",
+          "answer": "Tarua",
+          "options": ["Totta", "Tarua"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk": {
+          "question": "Правда чи неправда: У Ювяскюлі знаходиться найбільший університет Фінляндії?",
+          "answer": "Неправда",
+          "options": ["Правда", "Неправда"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "true_false",
+      "content": {
+        "en": {
+          "question": "True or false: Alvar Aalto built only one building in Jyväskylä?",
+          "answer": "False",
+          "options": ["True", "False"],
+          "title": "Choose the right answer"
+        },
+        "ru": {
+          "question": "Правда или ложь: Алвар Аалто построил только одно здание в Ювяскюле?",
+          "answer": "Ложь",
+          "options": ["Правда", "Ложь"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi": {
+          "question": "Totta vai tarua: Alvar Aalto rakensi vain yhden rakennuksen Jyväskylään?",
+          "answer": "Tarua",
+          "options": ["Totta", "Tarua"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk": {
+          "question": "Правда чи неправда: Алвар Аалто побудував лише одну будівлю в Ювяскюлі?",
+          "answer": "Неправда",
+          "options": ["Правда", "Неправда"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "content": {
+        "en": {
+          "question": "True or false: The Petäjävesi church is a UNESCO World Heritage Site?",
+          "answer": "True",
+          "options": ["True", "False"],
+          "title": "Choose the right answer"
+        },
+        "ru": {
+          "question": "Правда или ложь: Церковь Петяйявеси является объектом Всемирного наследия ЮНЕСКО?",
+          "answer": "Правда",
+          "options": ["Правда", "Ложь"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi": {
+          "question": "Totta vai tarua: Petäjäveden kirkko on UNESCO:n maailmanperintökohde?",
+          "answer": "Totta",
+          "options": ["Totta", "Tarua"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk": {
+          "question": "Правда чи неправда: Церква Петяйявесі є об'єктом Всесвітньої спадщини ЮНЕСКО?",
+          "answer": "Правда",
+          "options": ["Правда", "Неправда"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    }
+  ]
+}
