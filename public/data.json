@@ -143,6 +143,7 @@
     {
       "id": 5,
       "type": "fact",
+      "imgURL": "https://i.imgur.com/n9fRiG4.jpeg",
       "content": {
         "en": {
           "title": "Fact 5",
@@ -165,6 +166,7 @@
     {
       "id": 6,
       "type": "fact",
+      "imgURL": "https://i.imgur.com/12ffFSp.jpeg",
       "content": {
         "en": {
           "title": "Fact 6",
@@ -209,7 +211,7 @@
     {
       "id": 8,
       "type": "fact",
-      "imgURL":"https://i.imgur.com/DdZVUnr.jpeg",
+      "imgURL": "https://i.imgur.com/DdZVUnr.jpeg",
       "content": {
         "en": {
           "title": "Fact 8",
@@ -232,7 +234,7 @@
     {
       "id": 9,
       "type": "fact",
-      "imgURL": "https://i.imgur.com/TUV5tsr.jpeg",
+      "imgURL": "https://i.imgur.com/1NDJCXf.jpeg",
       "content": {
         "en": {
           "title": "Fact 9",
@@ -255,6 +257,7 @@
     {
       "id": 10,
       "type": "fact",
+      "imgURL": "https://i.imgur.com/TUV5tsr.jpeg",
       "content": {
         "en": {
           "title": "Fact 10",

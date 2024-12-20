@@ -1,4 +1,4 @@
-import QuestionButton from "./components/questionModal/questionButton";
+import QuestionButton from "./components/globalComponents/questionModal/questionButton";
 import Intro from "./components/Screens/introScreen";
 import LanguageSwitcher from "./components/globalComponents/languageSwitcher";
 import { useSelector } from "react-redux";
@@ -20,8 +20,8 @@ function App() {
           <QuestionButton />
           <EndGame />
           {currentScreen === "intro" && <Intro />}
-          {currentScreen === "facts" && <FactsScreen/>}
-          {currentScreen === "quiz" && <QuizScreen/>}
+          {currentScreen === "facts" && <FactsScreen />}
+          {currentScreen === "quiz" && <QuizScreen />}
         </div>
       </main>
     </>

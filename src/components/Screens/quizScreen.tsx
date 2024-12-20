@@ -44,9 +44,7 @@ export default function QuizScreen(): JSX.Element {
   const [score, setScore] = useState<number>(0);
   const [showResult, setShowResult] = useState<boolean>(false);
   const [showOverlay, setShowOverlay] = useState<boolean>(false);
-  const [answerStatus, setAnswerStatus] = useState<
-    "correct" | "incorrect" | "none"
-  >("none");
+  const [answerStatus, setAnswerStatus] = useState<"correct" | "incorrect" | "none">("none");
 
   const currentLanguage = useSelector(
     (state: RootState) => state.language.currentLanguage
@@ -85,15 +83,14 @@ export default function QuizScreen(): JSX.Element {
 
     setShowOverlay(true);
 
-    if (currentQuestion < questions.length - 1) {
-      setCurrentQuestion((prev) => prev + 1);
-    } else {
-      setShowResult(true);
-    }
-
     setTimeout(() => {
       setShowOverlay(false);
-    }, 500);
+      if (currentQuestion < questions.length - 1) {
+        setCurrentQuestion((prev) => prev + 1);
+      } else {
+        setShowResult(true);
+      }
+    }, 1750);
   };
 
   const restart = () => {
@@ -134,11 +131,19 @@ export default function QuizScreen(): JSX.Element {
     <div className="quiz">
       {showOverlay && (
         <div className={`quiz__overlay ${showOverlay ? "show" : ""}`}>
-          <div className={`icon ${answerStatus} ${showOverlay ? "show" : ""}`}>
+          <div className={`icon ${answerStatus}`}>
             {answerStatus === "correct" ? (
-              <img src="/images/quizImages/right.png" alt="right" />
+              <img
+                className={`${showOverlay ? "show" : ""}`}
+                src="/images/quizImages/right.png"
+                alt="Correct"
+              />
             ) : (
-              <img src="/images/quizImages/wrong.png" alt="wrong" />
+              <img
+                className={`${showOverlay ? "show" : ""}`}
+                src="/images/quizImages/wrong.png"
+                alt="Incorrect"
+              />
             )}
           </div>
         </div>

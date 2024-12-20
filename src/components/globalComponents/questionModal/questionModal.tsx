@@ -1,22 +1,24 @@
 import { useEffect, useState, useRef } from "react";
 import { useSelector } from "react-redux";
-import { RootState } from "../../store/store";
-import { getLocalizedDescription } from "../../services/descriptionService";
+import { RootState } from "../../../store/store";
+import { getLocalizedDescription } from "../../../services/descriptionService";
 
-type QuestionModalProps = { onClose: () => void;};
+type QuestionModalProps = { onClose: () => void };
 type LocalizedContent = { title: string; content: string };
 
 export default function QuestionModal({
   onClose,
 }: QuestionModalProps): JSX.Element {
   const [content, setContent] = useState<LocalizedContent | null>(null);
-  const currentLanguage = useSelector((state: RootState) => state.language.currentLanguage);
+  const currentLanguage = useSelector(
+    (state: RootState) => state.language.currentLanguage
+  );
   const modalRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     getLocalizedDescription(1, currentLanguage)
-    .then((data) => setContent(data))
-    .catch((err) => console.error("Failed to load", err));
+      .then((data) => setContent(data))
+      .catch((err) => console.error("Failed to load", err));
   }, [currentLanguage]);
 
   useEffect(() => {
@@ -49,8 +51,8 @@ export default function QuestionModal({
         >
           {content.title}
         </h2>
-        <p style={{marginBottom: "120px"}}>{content.content}</p>
-        <div style={{color: "black"}}>
+        <p style={{ marginBottom: "120px" }}>{content.content}</p>
+        <div style={{ color: "black" }}>
           <p>Icons by https://www.flaticon.com/</p>
           <p>Images by DALL·E</p>
         </div>
