@@ -8,7 +8,7 @@ body {
 
 .language__box {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 65px;
   border-radius: 20px;
   padding: 5px;
@@ -17,6 +17,7 @@ body {
   gap: 5px;
   z-index: 10;
   transition: background-color 2.7s ease;
+  z-index: 9999;
 }
 
 .language__box-switch {
@@ -31,7 +32,7 @@ body {
 
 .endgame-cross button {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 20px;
   font-size: 52px;
   transform: translateY(-20%);
@@ -40,6 +41,7 @@ body {
   font-weight: 800;
   background-color: transparent;
   transition: color 0.3s ease, transform 0.3s ease;
+  z-index: 9999;
 }
 
 .endgame-cross button:hover {
@@ -71,7 +73,7 @@ body {
   height: 50px;
   border-radius: 100%;
   position: absolute;
-  top: 10px;
+  top: 15px;
   left: 20px;
   background-color: #4169e1;
   color: white;
@@ -83,6 +85,7 @@ body {
   color: #ff5900;
   font-weight: 800;
   font-size: 46px;
+  z-index: 9999;
 }
 
 .question__button:hover {
@@ -144,7 +147,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 130px;
   box-sizing: border-box;
 
   &__1row {
@@ -165,13 +168,13 @@ body {
   }
 
   &__2row {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 
     &-townimg {
       border-radius: 20px;
       transition: transform 0.3s ease;
-      max-width: 80%;
+      max-width: 100%;
     }
 
     &-townimg:hover {
@@ -200,7 +203,9 @@ body {
     transform: translateY(-10px);
   }
 }
-
+.intro__kid-img {
+  margin-top: 20px;
+}
 // FACTS
 
 .facts {
@@ -409,7 +414,6 @@ body {
     0 6px 20px 0 rgba(0, 0, 0, 0.55);
   font-weight: 900;
   max-width: 180px;
-  box-sizing: border-box;
 }
 
 
@@ -423,7 +427,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 100;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -476,6 +480,7 @@ body {
   }
 }
 
+
 @media (max-width: 768px) {
   .facts__content-img {
     display: none;
@@ -495,16 +500,69 @@ body {
     margin-bottom: 20px;
   }
 }
+@media (max-height: 700px) {
+  .app {
+    height: 100%;
+    max-height: 100vh;
+    padding: 10px;
+  }
+  .intro {
+    margin-top: 100px;
+  }
+  .facts, .quiz {
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .modal {
+    height: auto;
+    max-height: 90vh;
+  }
+
+  .modal__content {
+    font-size: 18px;
+    line-height: 120%;
+  }
+.intro__2row-townimg {
+  max-width: 90%;
+}
+  .intro__3row-button {
+    font-size: 40px;
+    padding: 10px 80px;
+  }
+  .facts__content-text {
+    margin-bottom: 0;
+  }
+  .facts__content-img {
+    text-align: center;
+  }
+  .facts__content-img img {
+    max-width: 320px;
+    max-height: 320px;
+  }
+  .prev, .next {
+    bottom: -30px;
+  }
+}
 
 @media (max-width: 480px) {
 
   .app {
-    max-width: 100%
+    max-width: 100%;
   };
 .facts, .intro, .quiz {
   max-width: 100%;
   padding: 5px;
   margin-top: 90px;
+}
+.intro {
+  margin-top: 40px;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 100%;
+  height: calc(100% - 90px);
+  padding: 40px 0;
+  gap: 0;
 }
 .intro__kid-img {
   display: none;
@@ -515,11 +573,11 @@ body {
   }
 .intro__2row-townimg {
   max-width: 100%;
-  padding: 10px;
+  height: 110px;
 }
   .intro__3row-button {
     font-size: 50px; 
-    padding: 0 30px;
+    padding: 20px 70px;
   }
 
   .question__button {
@@ -538,4 +596,17 @@ body {
 .facts__content-text {
   margin-bottom: 10px;
 }
+.prev {
+  bottom: 20px;
+  left: 20px;
 }
+.next {
+  bottom: 20px;
+  right: 20px;
+}.quiz__button-true, .quiz__button-false {
+  font-size: 20px;
+  padding: 15px 35px;
+  width: 160px;
+}
+}
+

@@ -6,9 +6,7 @@ import { getLocalizedDescription } from "../../../services/descriptionService";
 type QuestionModalProps = { onClose: () => void };
 type LocalizedContent = { title: string; content: string };
 
-export default function QuestionModal({
-  onClose,
-}: QuestionModalProps): JSX.Element {
+export default function QuestionModal({ onClose }: QuestionModalProps): JSX.Element {
   const [content, setContent] = useState<LocalizedContent | null>(null);
   const currentLanguage = useSelector(
     (state: RootState) => state.language.currentLanguage
@@ -23,7 +21,12 @@ export default function QuestionModal({
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
+      const target = e.target as HTMLElement;
+
+      if (
+        modalRef.current && !modalRef.current.contains(target) && 
+        !target.closest(".language__box") 
+      ) {
         onClose();
       }
     };

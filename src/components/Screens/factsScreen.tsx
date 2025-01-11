@@ -6,6 +6,25 @@ import { Facts } from "../../services/factsService";
 import { setScreen } from "../../store/features/screenSlice";
 
 export default function FactsScreen(): JSX.Element {
+  const buttonText = {
+    en: {
+      textNext: "Next",
+      textPrev: "Prev",
+    },
+    ru: {
+      textNext: "Вперед",
+      textPrev: "Назад",
+    },
+    fi: {
+      textNext: "Eteenpäin",
+      textPrev: "Taaksepäin",
+    },
+    uk: {
+      textNext: "Вперед",
+      textPrev: "Назад",
+    },
+  }
+
   const [facts, setFacts] = useState<Facts[]>([]);
   const [currentFact, setCurrentFact] = useState<number>(0);
   const currentLanguage = useSelector(
@@ -55,12 +74,12 @@ export default function FactsScreen(): JSX.Element {
       <div className="facts__button-box">
         {currentFact !== 0 && (
           <button className="prev" onClick={handlePrev}>
-            <p className="btn-text">Prev</p>
+            <p className="btn-text">{buttonText[currentLanguage].textPrev}</p>
           </button>
         )}
         {currentFact < facts.length - 1 && (
           <button className="next" onClick={handleNext}>
-            <p className="btn-text">Next</p>
+            <p className="btn-text">{buttonText[currentLanguage].textNext}</p>
           </button>
         )}
         {currentFact === facts.length - 1 && (
