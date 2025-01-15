@@ -10,18 +10,22 @@ export default function FactsScreen(): JSX.Element {
     en: {
       textNext: "Next",
       textPrev: "Prev",
+      StartTest:"Start Test",
     },
     ru: {
       textNext: "Вперед",
       textPrev: "Назад",
+      StartTest:"Начать тест",
     },
     fi: {
       textNext: "Eteenpäin",
       textPrev: "Taaksepäin",
+      StartTest:"Aloita testi",
     },
     uk: {
       textNext: "Вперед",
       textPrev: "Назад",
+      StartTest:"Розпочати тест",
     },
   }
 
@@ -84,7 +88,7 @@ export default function FactsScreen(): JSX.Element {
         )}
         {currentFact === facts.length - 1 && (
           <button className="next" onClick={startTest}>
-            <p className="btn-text">To the test</p>
+            <p className="btn-text-test">{buttonText[currentLanguage].StartTest}</p>
           </button>
         )}
       </div>

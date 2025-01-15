@@ -439,6 +439,84 @@
           "answer": "Nicholas I",
           "options": ["Mannerheim", "Nicholas I", "Peter the Great"],
           "title": "Choose the right answer"
+        },
+        "ru" : {
+          "question" : "Выберите правильный ответ: Чьим указом в 1837 году был основан город Ювяскюля?",
+          "answer": "Николай I",
+          "options": ["Маннергейм", "Николай I", "Петр Великий"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi" : {
+          "question" : "Valitse oikea vastaus: Kenen asetuksella Jyväskylä perustettiin vuonna 1837?",
+          "answer": "Nikolai I",
+          "options": ["Mannerheim", "Nikolai I", "Pietari Suuri"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk" : {
+          "question" : "Виберіть правильну відповідь: За чиїм указом у 1837 році було засновано місто Ювяскюля?",
+          "answer": "Микола І",
+          "options": ["Маннергейм", "Микола І", "Петро Перший"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id":7,
+      "type": "choose_right_answer",
+      "content": {
+        "en" : {
+          "question" : "Jyväskylä is located in the Central Finland region, also known as...?",
+          "answer": "Heart of Finland",
+          "options": ["Heart of Europe", "Swamps of Finland", "Heart of Finland"],
+          "title": "Choose the right answer"
+        },
+        "ru" : {
+          "question" : "Jyväskylä находится в регионе Центральная Финляндия, который также называют...?",
+          "answer": "Сердце Финляндии",
+          "options": ["Сердце Европы", "Болота Финляндии", "Сердце Финляндии"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi" : {
+          "question" : "Jyväskylä sijaitsee Keski-Suomen alueella, joka tunnetaan myös nimellä...?",
+          "answer": "Suomen sydän",
+          "options": ["Euroopan sydän", "Suomen suot", "Suomen sydän"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk" : {
+          "question" : "Jyväskylä розташований у регіоні Центральна Фінляндія, її також називають...?",
+          "answer": "Серце Фінляндії",
+          "options": ["Серце Європи", "Болота Фінляндії", "Серце Фінляндії"],
+          "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id":8,
+      "type": "choose_right_answer",
+      "content": {
+        "en" : {
+          "question" : "Jyväskylä is home to Finland's largest lake archipelago, which includes ... islands and is ideal for fishing and kayaking.",
+          "answer": "Hundreds",
+          "options": ["Hundreds", "Tens", "Thousands"],
+          "title": "Choose the right answer"
+        },
+        "ru" : {
+          "question" : "В Ювяскюле находится крупнейший в Финляндии озёрный архипелаг, который включает ... островов и идеально подходит для рыбалки и каякинга.",
+          "answer": "Сотни",
+          "options": ["Сотни", "Десятки", "Тысячи"],
+          "title": "Выберите правильный ответ"
+        },
+        "fi" : {
+          "question" : "Jyväskylässä sijaitsee Suomen suurin järvisaaristo, johon kuuluu ... saaria ja joka on ihanteellinen kalastukseen ja melontaan.",
+          "answer": "Satoja",
+          "options": ["Satoja", "Kymmeniä", "Tuhansia"],
+          "title": "Valitse oikea vastaus"
+        },
+        "uk" : {
+          "question" : "У Ювяскюлі знаходиться найбільший у Фінляндії озерний архіпелаг, який включає... островів та ідеально підходить для риболовлі та каякінгу.",
+          "answer": "Сотні",
+          "options": ["Сотні", "Десятки", "Тисячі"],
+          "title": "Виберіть правильну відповідь"
         }
       }
     }

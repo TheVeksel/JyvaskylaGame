@@ -301,7 +301,13 @@ body {
 .btn-text {
   color: white;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 22px;
+}
+
+.btn-text-test {
+  font-size: 14px;
+  color: white;
+  font-weight: 800;
 }
 
 .quiz {
@@ -341,7 +347,7 @@ body {
         0 6px 20px 0 rgba(0, 0, 0, 0.4);
       background-color: white;
       padding: 30px 20px;
-      margin-bottom: 30px;
+      margin-bottom: 150px;
 
       &-kid {
         position: absolute;
@@ -396,7 +402,7 @@ body {
     0 15px 20px 0 rgba(0, 0, 0, 0.55),
     0 6px 20px 0 rgba(0, 0, 0, 0.55);
   font-weight: 900;
-  max-width:180px;
+  max-width:220px;
 }
 
 .quiz__button-false {
@@ -413,9 +419,27 @@ body {
     0 15px 20px 0 rgba(0, 0, 0, 0.55),
     0 6px 20px 0 rgba(0, 0, 0, 0.55);
   font-weight: 900;
-  max-width: 180px;
+  max-width: 220px;
 }
-
+.quiz__options-choose {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+  gap: 30px;
+}
+.quiz__button-choose {
+  background-color: #3ad1d6;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 10px 40px;
+  flex-grow: 1;
+  box-shadow:
+    0 15px 20px 0 rgba(0, 0, 0, 0.55),
+    0 6px 20px 0 rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
 
 .quiz__overlay {
   position: absolute;
@@ -498,6 +522,13 @@ body {
 
   .quiz__result-text {
     margin-bottom: 20px;
+  }
+  .quiz__content-question {
+    margin-bottom: 20px;
+  }
+  .quiz__options-choose {
+    flex-direction: column;
+    gap: 15px;
   }
 }
 @media (max-height: 700px) {
@@ -607,6 +638,11 @@ body {
   font-size: 20px;
   padding: 15px 35px;
   width: 160px;
+}
+.quiz__result-button {
+  max-width: 300px;
+  font-size: 36px;
+  font-weight: 900;
 }
 }
 

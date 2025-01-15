@@ -175,6 +175,28 @@ export default function QuizScreen(): JSX.Element {
           </button>
         </div>
         )}
+        {type === "choose_right_answer" && (
+          <div className="quiz__options-choose">
+          <button
+            onClick={() => handleAnswer(options[0])}
+            className="quiz__button-choose"
+          >
+            {options[0]}
+          </button>
+          <button
+            onClick={() => handleAnswer(options[1])}
+            className="quiz__button-choose"
+          >
+            {options[1]}
+          </button>
+          <button
+            onClick={() => handleAnswer(options[2])}
+            className="quiz__button-choose"
+          >
+            {options[2]}
+          </button>
+        </div>
+        )}
       </div>
     </div>
   );

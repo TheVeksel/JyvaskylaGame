@@ -17,6 +17,6 @@ export async function getQuizContent(language: string): Promise<Quiz[]> {
     options: item.content[language].options,
     answer: item.content[language].answer,
     title: item.content[language].title,
-    type: item.content[language].type
+    type: item.type
   }));
 }
