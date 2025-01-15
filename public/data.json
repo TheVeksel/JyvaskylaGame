@@ -143,7 +143,7 @@
     {
       "id": 5,
       "type": "fact",
-      "imgURL": "https://i.imgur.com/n9fRiG4.jpeg",
+      "imgURL": "https://i.imgur.com/BGlkXR2.jpg",
       "content": {
         "en": {
           "title": "Fact 5",
@@ -427,6 +427,18 @@
           "answer": "Правда",
           "options": ["Правда", "Неправда"],
           "title": "Виберіть правильну відповідь"
+        }
+      }
+    },
+    {
+      "id":6,
+      "type": "choose_right_answer",
+      "content": {
+        "en" : {
+          "question" : "Choose the right answer: By whose decree was Jyväskylä founded in 1837?",
+          "answer": "Nicholas I",
+          "options": ["Mannerheim", "Nicholas I", "Peter the Great"],
+          "title": "Choose the right answer"
         }
       }
     }

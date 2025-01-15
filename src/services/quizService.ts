@@ -6,6 +6,7 @@ export type Quiz = {
   options: string[];
   answer: string;
   title: string;
+  type: string;
 };
 
 export async function getQuizContent(language: string): Promise<Quiz[]> {
@@ -16,5 +17,6 @@ export async function getQuizContent(language: string): Promise<Quiz[]> {
     options: item.content[language].options,
     answer: item.content[language].answer,
     title: item.content[language].title,
+    type: item.content[language].type
   }));
 }

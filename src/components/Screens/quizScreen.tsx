@@ -67,7 +67,7 @@ export default function QuizScreen(): JSX.Element {
   }
 
   const currentQuiz = questions[currentQuestion];
-  const { question, options, title } = currentQuiz;
+  const { question, options, title, type } = currentQuiz;
 
   const handleAnswer = (selectedOption: string) => {
     const isCorrect = selectedOption === questions[currentQuestion].answer;
@@ -159,6 +159,7 @@ export default function QuizScreen(): JSX.Element {
           />
           <p>{question}</p>
         </div>
+        {type === "true_false" && (
         <div className="quiz__options">
           <button
             onClick={() => handleAnswer(options[1])}
@@ -173,6 +174,7 @@ export default function QuizScreen(): JSX.Element {
             {options[0]}
           </button>
         </div>
+        )}
       </div>
     </div>
   );
