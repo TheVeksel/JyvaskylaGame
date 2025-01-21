@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# Jyväskylä Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This educational game was developed during my internship at **Mosaiikki Oy** for their children’s educational games website. 
 
-Currently, two official plugins are available:
+## Project Concept
+The game aims to combine learning with fun:  
+1. Players first learn interesting facts about the city of Jyväskylä.  
+2. They then take a simple quiz based on the learned facts.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Despite the simplicity of the concept, the final result turned out to be highly engaging and effective.
 
-## Expanding the ESLint configuration
+## Features
+- **Multilingual Support**: The game is available in **four languages**, allowing players to learn new words in a foreign language.  
+  - This is particularly helpful for children from other countries who have moved to Finland, as they can expand their vocabulary with words related to the city they now live in.  
+- Interactive and educational gameplay to keep users engaged while learning.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Current Status
+The game is currently hosted on Vercel:  
+👉 [Jyväskylä Game](https://jyvaskyla-game.vercel.app/)  
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+It will soon be migrated to the **Mosaiikki Oy** website.
