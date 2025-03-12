@@ -1,6 +1,6 @@
 # Jyväskylä Game
 
-This educational game was developed during my internship at **Mosaiikki Oy** for their children’s educational games website. 
+This educational game was developed during my internship at **Mosaiikki Ry** for their children’s educational games website. 
 
 ## Project Concept
 The game aims to combine learning with fun:  
