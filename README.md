@@ -18,4 +18,4 @@ Despite the simplicity of the concept, the final result turned out to be highly 
 The game is currently hosted on Vercel:  
 👉 [Jyväskylä Game](https://jyvaskyla-game.vercel.app/)  
 
-It will soon be migrated to the **Mosaiikki Oy** website.
+It will soon be migrated to the **Mosaiikki Ry** website.
